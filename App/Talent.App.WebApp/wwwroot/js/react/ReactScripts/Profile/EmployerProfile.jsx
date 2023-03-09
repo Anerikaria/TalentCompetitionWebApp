@@ -51,6 +51,7 @@ export default class EmployeeProfile extends React.Component {
 
     loadData() {
         var cookies = Cookies.get('talentAuthToken');
+        debugger
         $.ajax({
             url: 'http://localhost:60290/profile/profile/getEmployerProfile',
             headers: {

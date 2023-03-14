@@ -81,7 +81,9 @@ export default class ManageJob extends React.Component {
                     <h1>List of Jobs</h1>
                     <div>
                         <span>
-                            <Icon aria-hidden="true" className="filter"></Icon>Filter: Choose filter <Icon aria-hidden="true" className="dropdown"></Icon></span>
+                            <Icon aria-hidden="true" className="filter"></Icon>Filter: Choose filter <Icon aria-hidden="true" className="dropdown"></Icon>
+                            <Ico></Ico>
+                        </span>
                     </div>
                 </div>
             </BodyWrapper>

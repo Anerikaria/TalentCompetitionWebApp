@@ -63,6 +63,7 @@ export default class AccountProfile extends React.Component {
     }
 
     componentDidMount() {
+        debugger
         this.loadData();
     }
 
@@ -129,6 +130,7 @@ export default class AccountProfile extends React.Component {
     }
 
     render() {
+        debugger
         const profile = {
             firstName: this.state.profileData.firstName,
             lastName: this.state.profileData.lastName,
